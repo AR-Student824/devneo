@@ -1,2 +1,2 @@
-# godev
-social platform for devs (share code snippets, projects and more)
+# Godev
+Social platform for developers across the world. Share code snippets, new projects, ideas, job offers and more!
