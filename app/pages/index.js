@@ -14,11 +14,11 @@ export default function Home() {
       <main className={styles.main}>
         <center>
           <h1 className={styles.title}>
-          Code Snippets, Projects, Ideas and more
+          Godev.
         </h1>
 
         <p className={styles.description}>
-          One place for everything a developer would ever need. Coming soon.
+          Share and find code snippets, projects and ideas, all in one place.
         </p>
         </center>
     </main>
