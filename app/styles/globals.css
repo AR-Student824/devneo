@@ -16,5 +16,5 @@ p {
 }
 
 .pink {
-  color: #eb64b9;
+  color: #eb64b9 !important;
 }
