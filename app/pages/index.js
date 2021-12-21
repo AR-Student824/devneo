@@ -12,13 +12,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <center>
+          <h1 className={styles.title}>
           Code Snippets, Projects, Ideas and more
         </h1>
 
         <p className={styles.description}>
           One place for everything a developer would ever need. Coming soon.
         </p>
+        </center>
     </main>
     </div>
   )
