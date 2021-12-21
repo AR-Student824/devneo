@@ -14,7 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <center>
           <h1 className={styles.title}>
-          Introducing Godev.
+          Introducing <span class="purple">Godev</span>.
         </h1>
 
         <p className={styles.description}>
