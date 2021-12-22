@@ -4,7 +4,10 @@ import styles from '../styles/Home.module.css'
 import Typed from 'typed.js'
 import {useEffect} from 'react'
 import Button from '@mui/material/Button';
+import CircularProgress from '@mui/material/CircularProgress'
 import { makeStyles } from '@mui/styles';
+import { useSession, signIn, signOut } from "next-auth/client";
+
 
 const Styles = makeStyles((theme) => ({
   disabledButton: {
@@ -17,6 +20,7 @@ const Styles = makeStyles((theme) => ({
 export default function Home() {
   const s = Styles();
   useEffect(() => {
+    if (document.getElementById('typed')) {
     var typed = new Typed('#typed', {
       stringsElement: '#typed-strings',
       startdelay: 1000,
@@ -24,7 +28,22 @@ export default function Home() {
       backDelay: 300,
       backSpeed: 100
     });
+  }
   }, [])
+
+  const [session, loading] = useSession();
+
+  if (loading) {
+    return (
+      <>
+        <center>
+          <CircularProgress />
+        </center>
+      </>
+    )
+  }
+
+  if (!loading) {
   return (
     <div className={styles.container}>
       <Head>
@@ -83,5 +102,6 @@ export default function Home() {
     </main>
     </div>
   )
+  }
 }
 
