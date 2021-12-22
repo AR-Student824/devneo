@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Typed from 'typed.js'
 import {useEffect} from 'react'
+import Button from '@mui/material/Button';
+
 
 export default function Home() {
   useEffect(() => {
@@ -42,6 +44,8 @@ export default function Home() {
         <p className={styles.description}>
           Share and find code snippets, projects and ideas, all in one place.
         </p>
+
+        <Button variant="contained">Coming Soon</Button>
 
         <div className="cardGrid">
           <div className="card">
