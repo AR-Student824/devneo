@@ -54,7 +54,7 @@ export default function Home() {
           Share and find code snippets, projects and ideas, all in one place.
         </p>
 
-        <Button variant="contained" disabled>Coming Soon</Button>
+        <Button variant="contained" disabled className={s.disabledButton}>Coming Soon</Button>
 
         <div className="cardGrid">
           <div className="card">
