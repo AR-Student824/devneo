@@ -8,8 +8,8 @@ import { makeStyles } from '@mui/styles';
 
 const Styles = makeStyles((theme) => ({
   disabledButton: {
-    color: "whitesmoke",
-    backgroundColor: "#302a36"
+    color: "whitesmoke !important",
+    backgroundColor: "#302a36 !important"
   }
 }));
 
