@@ -4,9 +4,18 @@ import styles from '../styles/Home.module.css'
 import Typed from 'typed.js'
 import {useEffect} from 'react'
 import Button from '@mui/material/Button';
+import { makeStyles } from '@mui/material/styles';
+
+const Styles = makeStyles((theme) => ({
+  disabledButton: {
+    color: "whitesmoke",
+    backgroundColor: "#302a36"
+  }
+}));
 
 
 export default function Home() {
+  const s = Styles();
   useEffect(() => {
     var typed = new Typed('#typed', {
       stringsElement: '#typed-strings',
