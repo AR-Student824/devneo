@@ -48,6 +48,13 @@ export default function Home() {
             <h3>Projects</h3>
             <p>Share your projects effectively.</p>
           </div>
+
+          <div className="card">
+            <h3>Code Snippets</h3>
+            <p>Share and find useful code snippets.</p>
+          </div>
+
+          
         </div>
         </center>
     </main>
