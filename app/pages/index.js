@@ -9,8 +9,7 @@ import { makeStyles } from '@mui/styles';
 const Styles = makeStyles((theme) => ({
   disabledButton: {
     color: "whitesmoke !important",
-    backgroundColor: "#302a36 !important",
-    cursor: "not-allowed !important"
+    backgroundColor: "#302a36 !important"
   }
 }));
 
@@ -55,7 +54,7 @@ export default function Home() {
           Share and find code snippets, projects and ideas, all in one place.
         </p>
 
-        <Button variant="contained" disabled className={s.disabledButton}>Coming Soon</Button>
+        <Button variant="contained" className={s.disabledButton}>Coming Soon</Button>
 
         <div className="cardGrid">
           <div className="card">
