@@ -46,7 +46,7 @@ export default function Home() {
         <div className="cardGrid">
           <div className="card">
             <h3>Projects</h3>
-            <p>Share your projects effectively.</p>
+            <p>Share and discover projects effectively.</p>
           </div>
 
           <div className="card">
@@ -54,7 +54,7 @@ export default function Home() {
             <p>Share and find useful code snippets.</p>
           </div>
 
-          
+
         </div>
         </center>
     </main>
