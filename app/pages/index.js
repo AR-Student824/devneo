@@ -9,7 +9,8 @@ import { makeStyles } from '@mui/styles';
 const Styles = makeStyles((theme) => ({
   disabledButton: {
     color: "whitesmoke !important",
-    backgroundColor: "#302a36 !important"
+    backgroundColor: "#302a36 !important",
+    cursor: "not-allowed !important"
   }
 }));
 
