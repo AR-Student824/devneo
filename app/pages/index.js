@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Typed from 'typed.js'
 import {useEffect} from 'react'
 import Button from '@mui/material/Button';
-import { makeStyles } from '@mui/material/styles';
+import { makeStyles } from '@mui/styles';
 
 const Styles = makeStyles((theme) => ({
   disabledButton: {
