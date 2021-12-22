@@ -53,3 +53,8 @@ margin-top: 3rem;
 .card {
   max-width: 300px !important;
 }
+
+h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
