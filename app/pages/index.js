@@ -42,6 +42,13 @@ export default function Home() {
         <p className={styles.description}>
           Share and find code snippets, projects and ideas, all in one place.
         </p>
+
+        <div className="cardGrid">
+          <div className="card">
+            <h3>Projects</h3>
+            <p>Share your projects effectively.</p>
+          </div>
+        </div>
         </center>
     </main>
     </div>
