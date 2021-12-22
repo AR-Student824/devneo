@@ -59,6 +59,11 @@ export default function Home() {
             <p>Hire developers and discover jobs for you.</p>
           </div>
 
+          <div className="card">
+            <h3>Ideas</h3>
+            <p>Share ideas and build on ideas, all in one place.</p>
+          </div>
+
 
         </div>
         </center>
