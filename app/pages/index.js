@@ -43,67 +43,92 @@ export default function Home() {
     )
   }
 
-  if (!loading) {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Devneo</title>
-        <meta name="description" content="Social platform for developers across the world. Share code snippets, new projects, ideas, job offers and more!" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <center>
-          <h1 className={styles.title}>
-          A place for <span className="pink" id="typed">developers</span>.
-        </h1>
-
-        <div id="typed-strings" style={{display: "none"}}>
-          <h1>developers</h1>
-          <h1>code snippets</h1>
-          <h1>projects</h1>
-          <h1>ideas</h1>
-          <h1>jobs</h1>
-          <h1>APIs</h1>
-          <h1>developers</h1>
-
-        </div>
-
-        <p className={styles.description}>
-          Share and find code snippets, projects and ideas, all in one place.
-        </p>
-
-        <Button variant="contained" onClick={() => signIn('github')} className={s.disabledButton}>Coming Soon</Button>
-
-        <div className="cardGrid">
-          <div className="card">
-            <h3>Projects</h3>
-            <p>Share and discover projects effectively.</p>
+  if (!loading && !session) {
+    return (
+      <div className={styles.container}>
+        <Head>
+          <title>Devneo</title>
+          <meta name="description" content="Social platform for developers across the world. Share code snippets, new projects, ideas, job offers and more!" />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+  
+        <main className={styles.main}>
+          <center>
+            <h1 className={styles.title}>
+            A place for <span className="pink" id="typed">developers</span>.
+          </h1>
+  
+          <div id="typed-strings" style={{display: "none"}}>
+            <h1>developers</h1>
+            <h1>code snippets</h1>
+            <h1>projects</h1>
+            <h1>ideas</h1>
+            <h1>jobs</h1>
+            <h1>APIs</h1>
+            <h1>developers</h1>
+  
           </div>
-
-          <div className="card">
-            <h3>Code Snippets</h3>
-            <p>Share and find useful code snippets.</p>
+  
+          <p className={styles.description}>
+            Share and find code snippets, projects and ideas, all in one place.
+          </p>
+  
+          <Button variant="contained" onClick={() => signIn('github')} className={s.disabledButton}>Coming Soon</Button>
+  
+          <div className="cardGrid">
+            <div className="card">
+              <h3>Projects</h3>
+              <p>Share and discover projects effectively.</p>
+            </div>
+  
+            <div className="card">
+              <h3>Code Snippets</h3>
+              <p>Share and find useful code snippets.</p>
+            </div>
+  
+            <div className="card">
+              <h3>Jobs</h3>
+              <p>Hire developers and discover jobs for you.</p>
+            </div>
+  
+            <div className="card">
+              <h3>Ideas</h3>
+              <p>Share ideas and build on ideas, all in one place.</p>
+            </div>
+  
+  
+  
+  
           </div>
+          </center>
+      </main>
+      </div>
+    )
+  }
 
-          <div className="card">
-            <h3>Jobs</h3>
-            <p>Hire developers and discover jobs for you.</p>
+  if (!loading && session) {
+    return (
+      <>
+      <div className={styles.container}>
+        <Head>
+          <title>Devneo</title>
+          <meta name="description" content="Social platform for developers across the world. Share code snippets, new projects, ideas, job offers and more!" />
+          <link rel="icon" href="/favicon.ico" />
+          </Head>
+
+          <main className={styles.main}>
+            <center>
+              <h1 className={styles.title}>
+                Welcome back, {session.user.name}!
+              </h1>
+            
+            <Button variant="contained" onClick={() => signOut()}>Sign Out</Button>
+            </center>
+            </main>
           </div>
+          </>
 
-          <div className="card">
-            <h3>Ideas</h3>
-            <p>Share ideas and build on ideas, all in one place.</p>
-          </div>
-
-
-
-
-        </div>
-        </center>
-    </main>
-    </div>
-  )
+    )
   }
 }
 
