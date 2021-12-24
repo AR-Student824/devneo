@@ -118,7 +118,7 @@ export default function Home() {
 
           <main className={styles.main}>
             <center>
-              <Image src={session.user.avatar} alt="avatar" className={styles.avatar} width="100" height="100" />
+              <Image src={session.user.image} alt="avatar" className={styles.avatar} width="100" height="100" />
               <h1 className={styles.title}>
                 Welcome back, <span className="pink">{session.user.name}</span>!
               </h1>
