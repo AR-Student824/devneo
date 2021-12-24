@@ -119,7 +119,7 @@ export default function Home() {
           <main className={styles.main}>
             <center>
               <h1 className={styles.title}>
-                Welcome back, {session.user.name}!
+                Welcome back, <span className="pink">{session.user.name}</span>!
               </h1>
             
             <Button variant="contained" onClick={() => signOut()}>Sign Out</Button>
