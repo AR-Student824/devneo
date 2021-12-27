@@ -119,6 +119,7 @@ export default function Home() {
 
           <main className={styles.main}>
             <Sidebar />
+            <div style={{marginLeft: "4%"}}>
             <center>
               <Image src={session.user.image} alt="avatar" className={styles.avatar} width="100" height="100" />
               <h1 className={styles.title}>
@@ -127,6 +128,7 @@ export default function Home() {
             
             <Button variant="contained" onClick={() => signOut()}>Sign Out</Button>
             </center>
+            </div>
             </main>
           </div>
           </>
