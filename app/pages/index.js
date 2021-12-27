@@ -53,7 +53,7 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
   
-        <main className={styles.main}>
+        <main className={styles.main + " landingContent"}>
           <center>
             <h1 className={styles.title}>
             A place for <span className="pink" id="typed">developers</span>.
@@ -119,7 +119,7 @@ export default function Home() {
 
           <main className={styles.main}>
             <Sidebar />
-            <div style={{marginLeft: "4%"}}>
+            <div className="dashboardContent">
             <center>
               <Image src={session.user.image} alt="avatar" className={styles.avatar} width="100" height="100" />
               <h1 className={styles.title}>

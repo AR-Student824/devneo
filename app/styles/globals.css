@@ -6,6 +6,16 @@ body {
   color: whitesmoke;
 }
 
+.dashboardContent {
+  margin-left: 4px;
+  padding: 4px;
+}
+
+.landingContent {
+  margin-left: 4px;
+  padding: 4px;
+}
+
 h1 {
   font-size: 60px;
 }
