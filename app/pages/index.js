@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import CircularProgress from '@mui/material/CircularProgress'
 import { makeStyles } from '@mui/styles';
 import { useSession, signIn, signOut } from "next-auth/client";
+import Sidebar from './components/sidebar'
 
 
 const Styles = makeStyles((theme) => ({
@@ -117,6 +118,7 @@ export default function Home() {
           </Head>
 
           <main className={styles.main}>
+            <Sidebar />
             <center>
               <Image src={session.user.image} alt="avatar" className={styles.avatar} width="100" height="100" />
               <h1 className={styles.title}>
