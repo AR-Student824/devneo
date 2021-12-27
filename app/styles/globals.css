@@ -296,7 +296,7 @@ h3 {
 .w3-sidebar {
   height: 100%;
   width: 200px;
-  background-color: #fff;
+  background-color: rgb(62, 48, 75);
   position: fixed !important;
   z-index: 1;
   overflow: auto
