@@ -21,4 +21,4 @@ class PostBtn extends Component {
   }
 }
 
-export default Sidebar;
+export default PostBtn;
