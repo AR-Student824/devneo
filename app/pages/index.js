@@ -118,11 +118,11 @@ export default function Home() {
           </Head>
 
           <main className={styles.main}>
-            <Sidebar signout={() => signOut()} />
+            <Sidebar signout={() => signOut()} username={session.user.name} avatarUrl={session.user.image} />
             <div className="dashboardContent">
             <center>
               
-              <h3>Logged in as <Image src={session.user.image} alt="avatar" className={styles.avatar} width="25px" height="25px" /> {session.user.name}</h3>
+              
               <h1 className={styles.title}>
                 Welcome back, <span className="pink">{session.user.name}</span>!
               </h1>

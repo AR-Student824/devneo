@@ -72,6 +72,11 @@ h3 {
   font-family: "Inter", sans-serif !important;
 }
 
+.placeBottom {
+  position: absolute;
+  bottom: 0px;
+}
+
 
 
 
