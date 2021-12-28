@@ -307,7 +307,6 @@ h3 {
   position: fixed !important;
   z-index: 1;
   overflow: hidden;
-  border-radius: 6px;
 }
 
 .w3-bar-block .w3-dropdown-hover, .w3-bar-block .w3-dropdown-click {
