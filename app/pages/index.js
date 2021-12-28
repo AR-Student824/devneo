@@ -118,7 +118,7 @@ export default function Home() {
           </Head>
 
           <main className={styles.main}>
-            <Sidebar />
+            <Sidebar signout={signOut} />
             <div className="dashboardContent">
             <center>
               
@@ -126,8 +126,6 @@ export default function Home() {
               <h1 className={styles.title}>
                 Welcome back, <span className="pink">{session.user.name}</span>!
               </h1>
-            
-            <Button variant="contained" onClick={() => signOut()}>Sign Out</Button>
             </center>
             </div>
             </main>
