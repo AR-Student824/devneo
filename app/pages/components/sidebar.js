@@ -12,8 +12,8 @@ class Sidebar extends Component {
   <a href="#" className="w3-bar-item w3-button">❤ Saved</a>
   <a onClick={this.props.signout} className="w3-bar-item w3-button">👋 Sign Out</a>
 
-  <div className="placeBottom">
-  <h3>Logged in as <Image src={this.props.username} alt="avatar" className={styles.avatar} width="25px" height="25px" /> {this.props.avatarUrl}</h3>
+  <div className="placeBottom w3-bar-item">
+  <h3>Logged in as <Image src={this.props.avatarUrl} alt="avatar" className={styles.avatar} width="25px" height="25px" /> {this.props.username}</h3>
   </div>
 </div>
         </>
