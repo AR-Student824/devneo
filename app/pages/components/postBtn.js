@@ -10,7 +10,7 @@ class PostBtn extends Component {
         <>
             <div className="postBtnContainer">
 
-            <IconButton onClick={click} variant="contained">
+            <IconButton onClick={click} variant="contained" style={{width: '100px', height: '100px'}}>
                 <AddCircleIcon />
             </IconButton>
 
