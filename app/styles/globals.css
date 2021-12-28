@@ -71,7 +71,7 @@ h3 {
 .placeBottom {
   position: absolute;
   bottom: 0px;
-  background-color: rgb(73, 54, 90);
+  background-color: rgb(73, 54, 90) !important;
 }
 
 
