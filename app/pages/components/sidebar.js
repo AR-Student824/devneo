@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import Image from "next/image"
 
 class Sidebar extends Component {
   render(signout, username, avatarUrl) {
