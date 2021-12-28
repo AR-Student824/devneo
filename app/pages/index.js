@@ -8,6 +8,7 @@ import CircularProgress from '@mui/material/CircularProgress'
 import { makeStyles } from '@mui/styles';
 import { useSession, signIn, signOut } from "next-auth/client";
 import Sidebar from './components/sidebar'
+import PostBtn from './components/postBtn'
 
 
 const Styles = makeStyles((theme) => ({
@@ -120,12 +121,16 @@ export default function Home() {
           <main className={styles.main}>
             <Sidebar signout={() => signOut()} username={session.user.name} avatarUrl={session.user.image} />
             <div className="dashboardContent">
+              <PostBtn click={() => {
+                window.location.href='./new'
+              }} />
             <center>
               
               
               <h1 className={styles.title}>
                 Welcome back, <span className="pink">{session.user.name}</span>!
               </h1>
+
             </center>
             </div>
             </main>
