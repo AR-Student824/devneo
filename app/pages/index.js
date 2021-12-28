@@ -118,7 +118,7 @@ export default function Home() {
           </Head>
 
           <main className={styles.main}>
-            <Sidebar signout={signOut} />
+            <Sidebar signout={() => signOut()} />
             <div className="dashboardContent">
             <center>
               

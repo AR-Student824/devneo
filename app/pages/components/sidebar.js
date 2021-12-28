@@ -8,7 +8,7 @@ class Sidebar extends Component {
             <h3 className="w3-bar-item">Devneo</h3>
   <a href="#" className="w3-bar-item w3-button">🏠 Home</a>
   <a href="#" className="w3-bar-item w3-button">❤ Saved</a>
-  <a onClick={signout()} className="w3-bar-item w3-button">👋 Sign Out</a>
+  <a onClick={signout} className="w3-bar-item w3-button">👋 Sign Out</a>
 </div>
         </>
     )
