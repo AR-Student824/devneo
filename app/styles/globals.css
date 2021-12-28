@@ -1226,7 +1226,7 @@ h3 {
 
 .w3-button:hover {
   color: #000 !important;
-  background-color: rgb(73, 55, 88); !important
+  background-color: rgb(73, 55, 88) !important;
 }
 
 .w3-transparent, .w3-hover-none:hover {
