@@ -121,7 +121,8 @@ export default function Home() {
             <Sidebar />
             <div className="dashboardContent">
             <center>
-              <Image src={session.user.image} alt="avatar" className={styles.avatar} width="100" height="100" />
+              
+              <h3>LOGGED IN AS <Image src={session.user.image} alt="avatar" className={styles.avatar} width="30px" height="30px" /> {session.user.name}</h3>
               <h1 className={styles.title}>
                 Welcome back, <span className="pink">{session.user.name}</span>!
               </h1>
