@@ -74,6 +74,13 @@ h3 {
   background-color: rgb(73, 54, 90) !important;
 }
 
+.postBtnContainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 7px;
+}
+
 
 
 
