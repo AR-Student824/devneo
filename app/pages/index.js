@@ -133,7 +133,7 @@ export default function Home() {
                 Discover <span className="pink">Opportunities</span>
               </h1>
 
-              <p>Coming to a devneo near you... Soon.</p>
+              <p>Welcome back to Devneo, {session.user.name}.</p>
 
               <div className="cardGrid">
               <div className="card dashCard">
