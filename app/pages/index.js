@@ -15,6 +15,9 @@ const Styles = makeStyles((theme) => ({
   disabledButton: {
     color: "whitesmoke !important",
     backgroundColor: "#302a36 !important"
+  },
+  pink: {
+    color: "#eb64b9"
   }
 }));
 
@@ -123,7 +126,7 @@ export default function Home() {
             <div className="dashboardContent">
               <PostBtn click={() => {
                 window.location.href='./new'
-              }} />
+              }} classId={s.pink} />
             <center>
               
               

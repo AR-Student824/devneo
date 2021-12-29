@@ -5,12 +5,12 @@ import IconButton from '@mui/material/IconButton';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 
 class PostBtn extends Component {
-  render(click) {
+  render(click, classId) {
     return (
         <>
             <div className="postBtnContainer">
 
-            <IconButton onClick={click} variant="contained" size="large" style={{fontSize: '75px'}}>
+            <IconButton onClick={click} variant="contained" size="large" style={{fontSize: '75px'}} className={classId}>
                 <AddCircleIcon />
             </IconButton>
 
