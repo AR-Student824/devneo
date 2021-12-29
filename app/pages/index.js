@@ -137,13 +137,15 @@ export default function Home() {
 
               <div className="cardGrid">
               <div className="card">
-                <h3>Nice Balls <span className="w3-tag">CSS SNIPPET</span></h3>
+                <h3>Nice Balls</h3>
                 <p>Shows you how to get nice balls</p>
+                <p><span className="w3-tag">CSS SNIPPET</span></p>
               </div>
 
               <div className="card">
-                <h3>FormRocket <span className="w3-tag">PROJECT</span></h3>
+                <h3>FormRocket</h3>
                 <p>Create forms with ease</p>
+                <p> <span className="w3-tag">PROJECT</span></p>
               </div>
               </div>
 
