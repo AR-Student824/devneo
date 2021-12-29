@@ -131,8 +131,10 @@ export default function Home() {
               
               
               <h1 className={styles.title}>
-                Welcome back, <span className="pink">{session.user.name}</span>!
+                Discover <span className="pink">Opportunities</span>
               </h1>
+
+              <p>Coming to a devneo near you... Soon.</p>
 
             </center>
             </div>
