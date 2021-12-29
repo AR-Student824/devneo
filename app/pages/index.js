@@ -139,13 +139,13 @@ export default function Home() {
               <div className="card dashCard">
                 <h3>Nice Balls</h3>
                 <p>Shows you how to get nice balls</p>
-                <p><span className="w3-tag">CSS SNIPPET</span></p>
+                <p><b><span className="w3-tag">CSS SNIPPET</span></b></p>
               </div>
 
               <div className="card dashCard">
                 <h3>FormRocket</h3>
                 <p>Create forms with ease</p>
-                <p> <span className="w3-tag">PROJECT</span></p>
+                <p> <b><span className="w3-tag">PROJECT</span></b></p>
               </div>
               </div>
 
