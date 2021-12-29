@@ -136,7 +136,7 @@ export default function Home() {
               <p>Coming to a devneo near you... Soon.</p>
 
               <div className="card">
-              <h3>Nice Balls <span class="w3-badge">CODE SNIPPET</span></h3>
+              <h3>Nice Balls <span class="w3-badge">CSS CODE SNIPPET</span></h3>
               <p>Shows you how to get nice balls</p>
             </div>
 
