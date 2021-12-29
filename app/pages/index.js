@@ -78,7 +78,7 @@ export default function Home() {
               Share and find code snippets, projects and ideas, all in one place.
             </p>
 
-            <Button variant="contained" onClick={() => signIn('github')} className={s.disabledButton}>Coming Soon</Button>
+            <Button variant="contained" onClick={() => signIn('github')} className={s.disabledButton}>Get Started</Button>
 
             <div className="cardGrid">
               <div className="card">
