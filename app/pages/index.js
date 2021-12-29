@@ -41,9 +41,11 @@ export default function Home() {
   if (loading) {
     return (
       <>
+      <div className="landingContent">
         <center>
           <CircularProgress />
         </center>
+      </div>
       </>
     )
   }
@@ -51,11 +53,7 @@ export default function Home() {
   if (!loading && !session) {
     return (
       <div className={styles.container}>
-        <Head>
-          <title>Devneo</title>
-          <meta name="description" content="Social platform for developers across the world. Share code snippets, new projects, ideas, job offers and more!" />
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
+        
 
         <main className={styles.main + " landingContent"}>
           <center>
