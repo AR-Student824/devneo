@@ -72,11 +72,9 @@ h3 {
   position: absolute;
   bottom: 0px;
   background-color: rgb(73, 54, 90) !important;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
+
+
 
 .postBtnContainer {
   position: absolute;
@@ -189,7 +187,7 @@ h3 {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
-.w3-btn, .w3-button {
+* {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
