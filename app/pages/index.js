@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Typed from 'typed.js'
-import {useEffect} from 'react'
+import { useEffect } from 'react'
 import Button from '@mui/material/Button';
 import CircularProgress from '@mui/material/CircularProgress'
 import { makeStyles } from '@mui/styles';
@@ -26,14 +26,14 @@ export default function Home() {
   const s = Styles();
   useEffect(() => {
     if (document.getElementById('typed')) {
-    var typed = new Typed('#typed', {
-      stringsElement: '#typed-strings',
-      startdelay: 1000,
-      typeSpeed: 100,
-      backDelay: 300,
-      backSpeed: 100
-    });
-  }
+      var typed = new Typed('#typed', {
+        stringsElement: '#typed-strings',
+        startdelay: 1000,
+        typeSpeed: 100,
+        backDelay: 300,
+        backSpeed: 100
+      });
+    }
   }, [])
 
   const [session, loading] = useSession();
@@ -56,57 +56,57 @@ export default function Home() {
           <meta name="description" content="Social platform for developers across the world. Share code snippets, new projects, ideas, job offers and more!" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-  
+
         <main className={styles.main + " landingContent"}>
           <center>
             <h1 className={styles.title}>
-            A place for <span className="pink" id="typed">developers</span>.
-          </h1>
-  
-          <div id="typed-strings" style={{display: "none"}}>
-            <h1>developers</h1>
-            <h1>code snippets</h1>
-            <h1>projects</h1>
-            <h1>ideas</h1>
-            <h1>jobs</h1>
-            <h1>APIs</h1>
-            <h1>developers</h1>
-  
-          </div>
-  
-          <p className={styles.description}>
-            Share and find code snippets, projects and ideas, all in one place.
-          </p>
-  
-          <Button variant="contained" onClick={() => signIn('github')} className={s.disabledButton}>Coming Soon</Button>
-  
-          <div className="cardGrid">
-            <div className="card">
-              <h3>Projects</h3>
-              <p>Share and discover projects effectively.</p>
+              A place for <span className="pink" id="typed">developers</span>.
+            </h1>
+
+            <div id="typed-strings" style={{ display: "none" }}>
+              <h1>developers</h1>
+              <h1>code snippets</h1>
+              <h1>projects</h1>
+              <h1>ideas</h1>
+              <h1>jobs</h1>
+              <h1>APIs</h1>
+              <h1>developers</h1>
+
             </div>
-  
-            <div className="card">
-              <h3>Code Snippets</h3>
-              <p>Share and find useful code snippets.</p>
+
+            <p className={styles.description}>
+              Share and find code snippets, projects and ideas, all in one place.
+            </p>
+
+            <Button variant="contained" onClick={() => signIn('github')} className={s.disabledButton}>Coming Soon</Button>
+
+            <div className="cardGrid">
+              <div className="card">
+                <h3>Projects</h3>
+                <p>Share and discover projects effectively.</p>
+              </div>
+
+              <div className="card">
+                <h3>Code Snippets</h3>
+                <p>Share and find useful code snippets.</p>
+              </div>
+
+              <div className="card">
+                <h3>Jobs</h3>
+                <p>Hire developers and discover jobs for you.</p>
+              </div>
+
+              <div className="card">
+                <h3>Ideas</h3>
+                <p>Share ideas and build on ideas, all in one place.</p>
+              </div>
+
+
+
+
             </div>
-  
-            <div className="card">
-              <h3>Jobs</h3>
-              <p>Hire developers and discover jobs for you.</p>
-            </div>
-  
-            <div className="card">
-              <h3>Ideas</h3>
-              <p>Share ideas and build on ideas, all in one place.</p>
-            </div>
-  
-  
-  
-  
-          </div>
           </center>
-      </main>
+        </main>
       </div>
     )
   }
@@ -114,20 +114,20 @@ export default function Home() {
   if (!loading && session) {
     return (
       <>
-      <div className={styles.container}>
-        <Head>
-          <title>Devneo</title>
-          <meta name="description" content="Social platform for developers across the world. Share code snippets, new projects, ideas, job offers and more!" />
-          <link rel="icon" href="/favicon.ico" />
+        <div className={styles.container}>
+          <Head>
+            <title>Devneo</title>
+            <meta name="description" content="Social platform for developers across the world. Share code snippets, new projects, ideas, job offers and more!" />
+            <link rel="icon" href="/favicon.ico" />
           </Head>
 
           <main className={styles.main}>
             <Sidebar signout={() => signOut()} username={session.user.name} avatarUrl={session.user.image} />
-            <div className="dashboardContent" style={{paddingLeft: "25%"}}>
+            <div className="dashboardContent" style={{ paddingLeft: "25%" }}>
               <PostBtn click={() => {
-                window.location.href='./new'
+                window.location.href = './new'
               }} classId={s.pink} />
-              
+
 
               <h1 className={styles.title}>
                 Discover <span className="pink">Opportunities</span>
@@ -136,20 +136,20 @@ export default function Home() {
               <p>Coming to a devneo near you... Soon.</p>
 
               <div className="card">
-              <h3>Nice Balls <span className="w3-badge">CSS CODE SNIPPET</span></h3>
-              <p>Shows you how to get nice balls</p>
-            </div>
+                <h3>Nice Balls <span className="w3-badge">CSS CODE SNIPPET</span></h3>
+                <p>Shows you how to get nice balls</p>
+              </div>
 
-            <div className="card">
-              <h3>FormRocket <span className="w3-badge">PROJECT</span></h3>
-              <p>A new way for developers to create forms</p>
-            </div>
+              <div className="card">
+                <h3>FormRocket <span className="w3-badge">PROJECT</span></h3>
+                <p>A new way for developers to create forms</p>
+              </div>
 
 
             </div>
-            </main>
-          </div>
-          </>
+          </main>
+        </div>
+      </>
 
     )
   }
