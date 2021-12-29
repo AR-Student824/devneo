@@ -81,6 +81,7 @@ h3 {
   bottom: 0;
   right: 0;
   margin: 7px;
+  position: fixed !important;
 }
 
 .dashCard {
