@@ -138,8 +138,7 @@ export default function Home() {
               <div className="cardGrid">
               <div className="card dashCard">
                 <h3>Nice Balls</h3>
-                <p><b><span className="w3-tag">💻 CSS SNIPPET</span></b>
-                <b><span className="w3-tag">👤 AR</span></b>
+                <p><b><span className="w3-tag">💻 CSS SNIPPET</span></b>{" "}<b><span className="w3-tag">👤 TITS69</span></b>
                 </p>
                 <p>Shows you how to get nice balls</p>
               </div>
