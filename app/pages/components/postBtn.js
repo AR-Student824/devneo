@@ -9,9 +9,8 @@ class PostBtn extends Component {
     return (
         <>
             <div className="postBtnContainer">
-
-            <IconButton onClick={click} variant="contained" size="large" style={{fontSize: '75px'}}>
-                <AddCircleIcon className={classId} />
+            <IconButton onClick={click} variant="contained" size="large" style={{fontSize: '75px', color: '#eb64b9'}}>
+                <AddCircleIcon className={classId} style={{color: '#eb64b9'}}/>
             </IconButton>
 
            
