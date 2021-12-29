@@ -129,15 +129,12 @@ export default function Home() {
               }} classId={s.pink} />
               
 
-              <center>
-              
               <h1 className={styles.title}>
                 Discover <span className="pink">Opportunities</span>
               </h1>
 
               <p>Coming to a devneo near you... Soon.</p>
 
-              </center>
 
             </div>
             </main>
