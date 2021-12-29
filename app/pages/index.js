@@ -135,6 +135,7 @@ export default function Home() {
 
               <p>Coming to a devneo near you... Soon.</p>
 
+              <div className="cardGrid">
               <div className="card">
                 <h3>Nice Balls <span className="w3-badge">CSS CODE SNIPPET</span></h3>
                 <p>Shows you how to get nice balls</p>
@@ -144,7 +145,7 @@ export default function Home() {
                 <h3>FormRocket <span className="w3-badge">PROJECT</span></h3>
                 <p>A new way for developers to create forms</p>
               </div>
-
+              </div>
 
             </div>
           </main>
