@@ -17,7 +17,7 @@ const Styles = makeStyles((theme) => ({
     backgroundColor: "#302a36 !important"
   },
   pink: {
-    color: "#eb64b9"
+    color: "#eb64b9 !important"
   }
 }));
 
