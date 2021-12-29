@@ -72,6 +72,10 @@ h3 {
   position: absolute;
   bottom: 0px;
   background-color: rgb(73, 54, 90) !important;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .postBtnContainer {
