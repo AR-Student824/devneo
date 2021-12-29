@@ -123,11 +123,10 @@ export default function Home() {
 
           <main className={styles.main}>
             <Sidebar signout={() => signOut()} username={session.user.name} avatarUrl={session.user.image} />
-            <div className="dashboardContent">
+            <div className="dashboardContent" style={{padding: "15px"}}>
               <PostBtn click={() => {
                 window.location.href='./new'
               }} classId={s.pink} />
-            <center>
               
               
               <h1 className={styles.title}>
@@ -136,7 +135,6 @@ export default function Home() {
 
               <p>Coming to a devneo near you... Soon.</p>
 
-            </center>
             </div>
             </main>
           </div>
