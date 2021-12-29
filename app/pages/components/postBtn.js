@@ -13,12 +13,11 @@ const Styles = makeStyles((theme) => ({
 
 class PostBtn extends Component {
   render(click, classId) {
-    const s = Styles();
     return (
         <>
             <div className="postBtnContainer">
 
-            <IconButton onClick={click} variant="contained" size="large" style={{fontSize: '75px'}} className={s.pink}>
+            <IconButton onClick={click} variant="contained" size="large" style={{fontSize: '75px'}} className={Styles().pink}>
                 <AddCircleIcon />
             </IconButton>
 
