@@ -36,6 +36,13 @@ color: inherit;
 text-decoration: none;
 background-color: #3e3647;
 border-radius: 10px;
+transition: box-shadow 0.30s ease, color 0.30s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  background-color: #222;
 }
 
 
