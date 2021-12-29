@@ -123,7 +123,7 @@ export default function Home() {
 
           <main className={styles.main}>
             <Sidebar signout={() => signOut()} username={session.user.name} avatarUrl={session.user.image} />
-            <div className="dashboardContent">
+            <div className="dashboardContent" style={{left: "-25%"}}>
               <PostBtn click={() => {
                 window.location.href='./new'
               }} classId={s.pink} />
