@@ -220,7 +220,8 @@ h3 {
   padding-right: 8px;
   text-align: center;
   border-radius: 3px;
-  background-color: #39333d;
+  background-color: rgb(62, 48, 75);
+  color: #eb64b9;
 }
 
 .w3-badge {
