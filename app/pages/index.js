@@ -127,7 +127,7 @@ export default function Home() {
                 window.location.href = 'https://www.devneo.wtf/new'
               }} classId={s.pink} />
 
-              <Image src="/devneo.png" alt="devneo icon" className="logo" width="150" height="150" />
+              <Image src="/laptop.png" alt="devneo icon" className="logo" width="150" height="150" />
 
               <h1 className={styles.title}>
                 Discover <span className="pink">Opportunities</span>
