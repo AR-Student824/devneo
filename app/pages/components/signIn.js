@@ -9,14 +9,14 @@ class SignIn extends Component {
       <>
         <center>
             <h1 className={styles.title}>
-               <span className="pink" id="typed">Login</span> with <span className="pink">GitHub</span>.
+               <span className="pink" id="typed">Sign In</span> with <span className="pink">GitHub</span>.
             </h1>
 
             <p className={styles.description}>
-              Please login to continue with Devneo.
+              Welcome to Devneo! To continue, please sign in.
             </p>
 
-            <Button variant="contained" onClick={signInFunction} className={styles.disabledButton}>Login</Button>
+            <Button variant="contained" onClick={signInFunction} className={styles.disabledButton}>Continue With GitHub</Button>
             </center>
       </>
     )
