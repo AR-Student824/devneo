@@ -58,6 +58,7 @@ export default function Home() {
         <main className={styles.main + " landingContent"}>
           <center>
             <h1 className={styles.title}>
+              <Image src={session.user.image} alt="devneo icon" className="logo" width="200" height="200" />
               A place for <span className="pink" id="typed">developers</span>.
             </h1>
 
