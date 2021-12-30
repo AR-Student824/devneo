@@ -8,7 +8,7 @@ class SignIn extends Component {
     return (
       <>
         <center>
-          <Image src="/api-programming.png" width="640" height="427" alt="art"  />
+          <Image src="/login.png" width="400" height="400" alt="art"  />
             <h1 className={styles.title}>
                <span className="pink" id="typed">Sign In</span> with <span className="pink">GitHub</span>.
             </h1>
