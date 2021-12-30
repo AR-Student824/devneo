@@ -74,7 +74,14 @@ export default function Home() {
           </Head>
 
           <main className={styles.main}>
-              Already signed in as <b>{session.user.name}</b>!
+            <center>
+            <Image src="/no-results-found.png" width="640" height="427" alt="art"  />
+              <h1>
+                Already signed in as <span className="pink">{session.user.name}</span>!
+              </h1>
+              <p>You are already signed into Devneo!</p>
+              <Button className={s.disabledButton} onClick="https://www.devneo.wtf">Go to dashboard</Button>
+            </center>
           </main>
         </div>
       </>
