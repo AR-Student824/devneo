@@ -75,7 +75,7 @@ export default function Home() {
 
           <main className={styles.main}>
             <center>
-            <Image src="/no-results-found.png" width="640" height="427" alt="art"  />
+            <Image src="/no-results-found.png" width="400" height="400" alt="art"  />
               <h1>
                 Already signed in as <span className="pink">{session.user.name}</span>!
               </h1>
