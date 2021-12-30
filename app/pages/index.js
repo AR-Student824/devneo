@@ -124,7 +124,7 @@ export default function Home() {
             
             <div className="dashboardContent" style={{ paddingLeft: "25%" }}>
               <PostBtn click={() => {
-                window.location.href = './new'
+                window.location.href = 'https://www.devneo.wtf/new'
               }} classId={s.pink} />
 
               <Image src="/devneo.png" alt="devneo icon" className="logo" width="150" height="150" />
