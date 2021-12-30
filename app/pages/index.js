@@ -57,6 +57,7 @@ export default function Home() {
 
         <main className={styles.main + " landingContent"}>
           <center>
+          <Image src="/api-programming.png" width="640" height="427" alt="art"  />
             <h1 className={styles.title}>
               A place for <span className="pink" id="typed">developers</span>.
             </h1>
