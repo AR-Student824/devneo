@@ -1,2 +1,2 @@
-# Godev
-Social platform for developers across the world. Share code snippets, new projects, ideas, job offers and more!
+# Devneo
+Share and find code snippets, projects and ideas, all in one place.
