@@ -80,7 +80,7 @@ export default function Home() {
                 Already signed in as <span className="pink">{session.user.name}</span>!
               </h1>
               <p>You are already signed into Devneo!</p>
-              <Button className={s.disabledButton} onClick="https://www.devneo.wtf">Go to dashboard</Button>
+              <Button className={s.disabledButton} onClick={() => window.location.href = 'https://www.devneo.wtf'}>Go to dashboard</Button>
             </center>
           </main>
         </div>
