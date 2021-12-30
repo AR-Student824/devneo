@@ -14,7 +14,7 @@ class SignIn extends Component {
             </h1>
 
             <p className={styles.description}>
-              Welcome to Devneo! To continue, please sign in.
+              Devneo does not have access to your GitHub password. By continuing, you agree to GitHub&apos;s Terms.
             </p>
 
             <Button variant="contained" onClick={this.props.signInFunction} className={styles.disabledButton}>Continue With GitHub &rarr;</Button>
