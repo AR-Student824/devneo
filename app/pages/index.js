@@ -41,11 +41,11 @@ export default function Home() {
   if (loading) {
     return (
       <>
-      <div className="landingContent">
-        <center>
-          <CircularProgress />
-        </center>
-      </div>
+        <div className="landingContent">
+          <center>
+            <CircularProgress />
+          </center>
+        </div>
       </>
     )
   }
@@ -53,12 +53,11 @@ export default function Home() {
   if (!loading && !session) {
     return (
       <div className={styles.container}>
-        
+
 
         <main className={styles.main + " landingContent"}>
           <center>
             <h1 className={styles.title}>
-              <Image src={session.user.image} alt="devneo icon" className="logo" width="200" height="200" />
               A place for <span className="pink" id="typed">developers</span>.
             </h1>
 
@@ -122,11 +121,13 @@ export default function Home() {
 
           <main className={styles.main}>
             <Sidebar signout={() => signOut()} username={session.user.name} avatarUrl={session.user.image} />
+            
             <div className="dashboardContent" style={{ paddingLeft: "25%" }}>
               <PostBtn click={() => {
                 window.location.href = './new'
               }} classId={s.pink} />
 
+              <Image src={session.user.image} alt="devneo icon" className="logo" width="200" height="200" />
 
               <h1 className={styles.title}>
                 Discover <span className="pink">Opportunities</span>
@@ -135,19 +136,19 @@ export default function Home() {
               <p>Welcome back to Devneo, {session.user.name}.</p>
 
               <div className="cardGrid">
-              <div className="card dashCard">
-                <h3>Nice Balls</h3>
-                <p><b><span className="w3-tag">💻 CSS SNIPPET</span></b>{" "}<b><span className="w3-tag">👤 TIT</span></b>
-                </p>
-                <p>Shows you how to get nice balls</p>
-              </div>
+                <div className="card dashCard">
+                  <h3>Nice Balls</h3>
+                  <p><b><span className="w3-tag">💻 CSS SNIPPET</span></b>{" "}<b><span className="w3-tag">👤 TIT</span></b>
+                  </p>
+                  <p>Shows you how to get nice balls</p>
+                </div>
 
-              <div className="card dashCard">
-                <h3>FormRocket</h3>
-                <p> <b><span className="w3-tag">💻 PROJECT</span></b>{" "}<b><span className="w3-tag">👤 AR</span></b>
-                </p>
-                <p>Create forms with ease</p>
-              </div>
+                <div className="card dashCard">
+                  <h3>FormRocket</h3>
+                  <p> <b><span className="w3-tag">💻 PROJECT</span></b>{" "}<b><span className="w3-tag">👤 AR</span></b>
+                  </p>
+                  <p>Create forms with ease</p>
+                </div>
               </div>
 
             </div>
