@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import Image from "next/image"
 import styles from '../../styles/Home.module.css'
+import Link from 'next/link'
 
 class Sidebar extends Component {
   render(signout, username, avatarUrl) {
@@ -8,8 +9,8 @@ class Sidebar extends Component {
       <>
         <div className="w3-sidebar w3-bar-block" style={{ width: "25%" }}>
           <h3 className="w3-bar-item">Devneo</h3>
-          <a href="#" className="w3-bar-item w3-button">🏠 Home</a>
-          <a href="#" className="w3-bar-item w3-button">❤ Saved</a>
+          <Link href="https://www.devneo.wtf" className="w3-bar-item w3-button">🏠 Home</Link>
+          <Link href="https://www.devneo.wtf/saved" className="w3-bar-item w3-button">❤ Saved</Link>
           <a onClick={this.props.signout} className="w3-bar-item w3-button">👋 Sign Out</a>
 
           <div className="placeBottom w3-bar-item">
