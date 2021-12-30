@@ -17,7 +17,7 @@ class SignIn extends Component {
                By continuing, you agree to GitHub&apos;s Terms of Service.
             </p>
 
-            <Button variant="contained" onClick={this.props.signInFunction} className={styles.disabledButton}>Continue With GitHub &rarr;</Button>
+            <Button variant="contained" id="authBtn" onClick={this.props.signInFunction} className={styles.disabledButton}>Continue With GitHub &rarr;</Button>
             </center>
       </>
     )

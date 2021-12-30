@@ -57,7 +57,7 @@ export default function Home() {
 
 
         <main className={styles.main + " landingContent"}>
-            <SignIn signInFunction={() => signIn('github')} />
+            <SignIn signInFunction={() => {signIn('github');document.getElementById('authBtn').innerText = 'Please wait...'}} />
         </main>
       </div>
     )
