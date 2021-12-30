@@ -17,7 +17,7 @@ class SignIn extends Component {
               Welcome to Devneo! To continue, please sign in.
             </p>
 
-            <Button variant="contained" onClick={signInFunction} className={styles.disabledButton}>Continue With GitHub &rarr;</Button>
+            <Button variant="contained" onClick={this.props.signInFunction} className={styles.disabledButton}>Continue With GitHub &rarr;</Button>
             </center>
       </>
     )
