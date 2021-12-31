@@ -89,7 +89,7 @@ export default function Home() {
 
               <div style={{marginTop: '1cm'}}>
               <h4>Post Title</h4>
-              <input type="text" name="title"></input>
+              <input type="text" name="title" placeholder="My Cool Post!" width="40px;"></input>
               </div>
               </div>
           </main>
