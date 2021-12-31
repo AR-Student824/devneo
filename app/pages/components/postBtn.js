@@ -9,7 +9,7 @@ class PostBtn extends Component {
     return (
       <>
         <div className="postBtnContainer">
-          <IconButton onClick={click} variant="contained" size="large" style={{ fontSize: '75px', color: '#eb64b9', size: '75px' }}>
+          <IconButton onClick={() => window.location.href = 'https://www.devneo.wtf/new'} variant="contained" size="large" style={{ fontSize: '75px', color: '#eb64b9', size: '75px' }}>
             <AddCircleIcon className={classId} style={{ color: '#eb64b9', fontSize: '40px' }} />
           </IconButton>
 
