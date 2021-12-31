@@ -21,13 +21,13 @@ class Sidebar extends Component {
 {/* Alternate navbar for mobile */}
         <div id="altbar">
         <div className="w3-bottom">
-  <ul className="w3-bar w3-black">
-    <center>
+  <div className="w3-bar w3-black">
+    <div className="w3-display-middle">
     <a className="w3-bar-item w3-button" href="https://www.devneo.wtf">🏠</a>
     <a className="w3-bar-item w3-button" href="https://www.devneo.wtf/saved">💖</a>
     <a className="w3-bar-item w3-button" onClick={this.props.signout}>👋</a>
-    </center>
-  </ul>
+    </div>
+  </div>
 </div>
         </div>
       </>
