@@ -89,7 +89,30 @@ export default function Home() {
 
               <div style={{marginTop: '1cm'}}>
               <h4>Post Title</h4>
+              <p>A clear and to-the-point title. </p>
               <input type="text" name="title" placeholder="My Cool Post!" width="40px;"></input>
+
+              <h4>Post Type</h4>
+              <p>Select a type that best matches your post.</p>
+              <select name="type">
+    <optgroup label="Code Snippets">
+      <option value="cssSnip">CSS Snippet</option>
+      <option value="htmlSnip">HTML Snippet</option>
+      <option value="jsSnip">JS Snippet</option>
+      <option value="pySnip">PY Snippet</option>
+      <option value="goSnip">GO Snippet</option>
+      <option value="rubySnip">Ruby Snippet</option>
+    </optgroup>
+    <optgroup label="Projects">
+      <option value="dscBotProject">Discord bot</option>
+      <option value="websiteProject">Website</option>
+      <option value="appProject">App</option>
+      <option value="ossProject">OSS</option>
+
+
+      <option value="audi">Audi</option>
+    </optgroup>
+  </select>
               </div>
               </div>
           </main>
