@@ -114,7 +114,14 @@ export default function Home() {
     <option value="lookingForJob">Looking For Job</option>
     <option value="inNeedOfDev">Need Dev</option>
     </optgroup>
+    <optgroup label="other">
+    <option value="other">Other</option>
+    </optgroup>
   </select>
+
+  <h3 style={{marginTop: '1cm'}}>Short Description</h3>
+  <p>A concise description of your post.</p>
+  <input type="text" placeholder="The dopest post ever!"></input>
               </div>
               </div>
           </main>
