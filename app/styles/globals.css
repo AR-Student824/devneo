@@ -103,8 +103,7 @@ input, select {
   background-color: #302a36;
   border-radius: 5px;
   border: 2px solid #302a36;
-  height: 36px;
-  padding: 2px;
+  padding: 10px;
   outline: none;
   color: whitesmoke !important;
 }
