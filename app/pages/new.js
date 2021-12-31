@@ -87,7 +87,7 @@ export default function Home() {
 
               <p>Posting as <b>{session.user.name}</b>.</p>
 
-              <div style={{marginTop: '2cm'}}>
+              <div style={{marginTop: '1cm'}}>
               <h4>Post Title</h4>
               <input type="text" name="title"></input>
               </div>
