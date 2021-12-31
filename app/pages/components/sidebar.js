@@ -10,12 +10,25 @@ class Sidebar extends Component {
         <div className="w3-sidebar w3-bar-block" style={{ width: "25%" }}>
           <h3 className="w3-bar-item">Devneo</h3>
           <a href="https://www.devneo.wtf" className="w3-bar-item w3-button">🏠 Home</a>
-          <a href="https://www.devneo.wtf/saved" className="w3-bar-item w3-button">❤ Saved</a>
+          <a href="https://www.devneo.wtf/saved" className="w3-bar-item w3-button">💖 Saved</a>
           <a onClick={this.props.signout} className="w3-bar-item w3-button">👋 Sign Out</a>
 
           <div className="placeBottom w3-bar-item">
             <h3><Image src={this.props.avatarUrl} alt="avatar" className={styles.avatar} width="25px" height="25px" /> {this.props.username}</h3>
           </div>
+        </div>
+
+{/* Alternate navbar for mobile */}
+        <div style={{display: 'none'}} id="altbar">
+        <div class="w3-bottom">
+  <ul class="w3-navbar w3-black w3-large">
+    <center>
+    <li><a href="https://www.devneo.wtf">🏠</a></li>
+    <li><a href="https://www.devneo.wtf/saved">💖</a></li>
+    <li><a onClick={this.props.signout}>👋</a></li>
+    </center>
+  </ul>
+</div>
         </div>
       </>
     )
