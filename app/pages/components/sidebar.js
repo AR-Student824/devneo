@@ -21,7 +21,7 @@ class Sidebar extends Component {
 {/* Alternate navbar for mobile */}
         <div id="altbar">
         <div className="w3-bottom">
-  <ul className="w3-navbar w3-black w3-large">
+  <ul className="w3-bar w3-black">
     <center>
     <li><a href="https://www.devneo.wtf">🏠</a></li>
     <li><a href="https://www.devneo.wtf/saved">💖</a></li>
