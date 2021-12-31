@@ -116,16 +116,16 @@ select:focus {
 
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: rgb(206, 205, 205);
+  color: rgb(141, 141, 141);
   opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: rgb(206, 205, 205);;
+  color: rgb(141, 141, 141);
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-  color: rgb(206, 205, 205);;
+  color: rgb(141, 141, 141);
 }
 
 
