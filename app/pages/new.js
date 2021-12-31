@@ -92,7 +92,7 @@ export default function Home() {
               <p>A clear and to-the-point title. </p>
               <input type="text" name="title" placeholder="My Cool Post!" width="40px;"></input>
 
-              <h3>Post Type</h3>
+              <h3 style={{marginTop: '1cm'}}>Post Type</h3>
               <p>Select a type that best matches your post.</p>
               <select name="type">
     <optgroup label="Code Snippets">
