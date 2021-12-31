@@ -132,7 +132,7 @@ export default function Home() {
     <div className="w3-display-middle">
     <a className="w3-bar-item w3-button" href="https://www.devneo.wtf">🏠</a>
     <a className="w3-bar-item w3-button" href="https://www.devneo.wtf/saved">💖</a>
-    <a className="w3-bar-item w3-button" onClick={this.props.signout}>👋</a>
+    <a className="w3-bar-item w3-button" onClick={() => signOut()}>👋</a>
     </div>
   </div>
 </div>
