@@ -127,6 +127,7 @@ export default function Home() {
               <PostBtn click={() => {
                 window.location.href = 'https://www.devneo.wtf/new'
               }} classId={s.pink} />
+              
 
               <Image src="/laptop.png" alt="devneo icon" className="logo" width="150" height="150" />
 
