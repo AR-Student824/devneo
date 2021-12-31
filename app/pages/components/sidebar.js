@@ -19,7 +19,7 @@ class Sidebar extends Component {
         </div>
 
 {/* Alternate navbar for mobile */}
-        <div style={{display: 'none'}} id="altbar">
+        <div id="altbar">
         <div class="w3-bottom">
   <ul class="w3-navbar w3-black w3-large">
     <center>
