@@ -23,9 +23,9 @@ class Sidebar extends Component {
         <div className="w3-bottom">
   <ul className="w3-bar w3-black">
     <center>
-    <li><a href="https://www.devneo.wtf">🏠</a></li>
-    <li><a href="https://www.devneo.wtf/saved">💖</a></li>
-    <li><a onClick={this.props.signout}>👋</a></li>
+    <a class="w3-bar-item w3-button" href="https://www.devneo.wtf">🏠</a>
+    <a class="w3-bar-item w3-button" href="https://www.devneo.wtf/saved">💖</a>
+    <a class="w3-bar-item w3-button" onClick={this.props.signout}>👋</a>
     </center>
   </ul>
 </div>
