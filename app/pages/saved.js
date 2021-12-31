@@ -85,7 +85,7 @@ export default function Home() {
                  <span className="pink">Saved</span> Posts
               </h1>
 
-              <p>{session.user.name}&apos; saved posts.</p>
+              <p>{session.user.name}&apos;s saved posts.</p>
 
               <div className="cardGrid">
                 <div className="card dashCard">
