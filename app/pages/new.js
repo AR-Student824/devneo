@@ -79,7 +79,7 @@ export default function Home() {
             <div className="dashboardContent" style={{ paddingLeft: "25%" }}>
               <PostBtn classId={s.pink} />
 
-              <Image src="/crypto-creation.png" alt="paint icon" className="logo" width="150" height="150" />
+              <Image src="/pencil-case.png" alt="pencil case" className="logo" width="150" height="150" />
 
               <h1 className={styles.title}>
                  <span className="pink">New</span> Post
