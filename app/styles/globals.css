@@ -131,8 +131,7 @@ select:focus {
 .bottomCenter {
   position: fixed;
   left: 50%;
-  bottom: 20px;
-  transform: translate(-50%, -50%);
+  bottom: 0px;
   margin: 0 auto;
 }
 
