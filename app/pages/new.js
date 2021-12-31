@@ -88,11 +88,11 @@ export default function Home() {
               <p>Posting as <b>{session.user.name}</b>.</p>
 
               <div style={{marginTop: '1cm'}}>
-              <h4>Post Title</h4>
+              <h3>Post Title</h3>
               <p>A clear and to-the-point title. </p>
               <input type="text" name="title" placeholder="My Cool Post!" width="40px;"></input>
 
-              <h4>Post Type</h4>
+              <h3>Post Type</h3>
               <p>Select a type that best matches your post.</p>
               <select name="type">
     <optgroup label="Code Snippets">
@@ -108,9 +108,11 @@ export default function Home() {
       <option value="websiteProject">Website</option>
       <option value="appProject">App</option>
       <option value="ossProject">OSS</option>
-
-
-      <option value="audi">Audi</option>
+      <option value="programProject">Program</option>
+    </optgroup>
+    <optgroup label="Jobs">
+    <option value="lookingForJob">Looking For Job</option>
+    <option value="inNeedOfDev">Need Dev</option>
     </optgroup>
   </select>
               </div>
