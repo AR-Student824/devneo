@@ -114,7 +114,7 @@ export default function Home() {
                     <option value="lookingForJob">Looking For Job</option>
                     <option value="inNeedOfDev">Need Dev</option>
                   </optgroup>
-                  <optgroup label="other">
+                  <optgroup label="Other">
                     <option value="other">Other</option>
                   </optgroup>
                 </select>
