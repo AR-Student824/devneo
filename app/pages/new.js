@@ -57,7 +57,7 @@ export default function Home() {
 
 
         <main className={styles.main + " landingContent"}>
-            <SignIn signInFunction={() => signIn('github')} />
+          <SignIn signInFunction={() => signIn('github')} />
         </main>
       </div>
     )
@@ -75,59 +75,59 @@ export default function Home() {
 
           <main className={styles.main}>
             <Sidebar signout={() => signOut()} username={session.user.name} avatarUrl={session.user.image} />
-            
+
             <div className="dashboardContent" style={{ paddingLeft: "25%" }}>
               <PostBtn classId={s.pink} />
 
               <Image src="/pencil-case.png" alt="pencil case" className="logo" width="150" height="150" />
 
               <h1 className={styles.title}>
-                 <span className="pink">New</span> Post
+                <span className="pink">New</span> Post
               </h1>
 
               <p>Posting as <b>{session.user.name}</b>.</p>
 
-              <div style={{marginTop: '1cm'}}>
-              <h3>Post Title</h3>
-              <p>A clear and to-the-point title. </p>
-              <input type="text" name="title" placeholder="My Cool Post!" width="40px;"></input>
+              <div style={{ marginTop: '1cm' }}>
+                <h3>Post Title</h3>
+                <p>A clear and to-the-point title. </p>
+                <input type="text" name="title" placeholder="My Cool Post!" width="40px;"></input>
 
-              <h3 style={{marginTop: '1cm'}}>Post Type</h3>
-              <p>Select a type that best matches your post.</p>
-              <select name="type">
-    <optgroup label="Code Snippets">
-      <option value="cssSnip">CSS Snippet</option>
-      <option value="htmlSnip">HTML Snippet</option>
-      <option value="jsSnip">JS Snippet</option>
-      <option value="pySnip">PY Snippet</option>
-      <option value="goSnip">GO Snippet</option>
-      <option value="rubySnip">Ruby Snippet</option>
-    </optgroup>
-    <optgroup label="Projects">
-      <option value="dscBotProject">Discord bot</option>
-      <option value="websiteProject">Website</option>
-      <option value="appProject">App</option>
-      <option value="ossProject">OSS</option>
-      <option value="programProject">Program</option>
-    </optgroup>
-    <optgroup label="Jobs">
-    <option value="lookingForJob">Looking For Job</option>
-    <option value="inNeedOfDev">Need Dev</option>
-    </optgroup>
-    <optgroup label="other">
-    <option value="other">Other</option>
-    </optgroup>
-  </select>
+                <h3 style={{ marginTop: '1cm' }}>Post Type</h3>
+                <p>Select a type that best matches your post.</p>
+                <select name="type">
+                  <optgroup label="Code Snippets">
+                    <option value="cssSnip">CSS Snippet</option>
+                    <option value="htmlSnip">HTML Snippet</option>
+                    <option value="jsSnip">JS Snippet</option>
+                    <option value="pySnip">PY Snippet</option>
+                    <option value="goSnip">GO Snippet</option>
+                    <option value="rubySnip">Ruby Snippet</option>
+                  </optgroup>
+                  <optgroup label="Projects">
+                    <option value="dscBotProject">Discord bot</option>
+                    <option value="websiteProject">Website</option>
+                    <option value="appProject">App</option>
+                    <option value="ossProject">OSS</option>
+                    <option value="programProject">Program</option>
+                  </optgroup>
+                  <optgroup label="Jobs">
+                    <option value="lookingForJob">Looking For Job</option>
+                    <option value="inNeedOfDev">Need Dev</option>
+                  </optgroup>
+                  <optgroup label="other">
+                    <option value="other">Other</option>
+                  </optgroup>
+                </select>
 
-  <h3 style={{marginTop: '1cm'}}>Short Description</h3>
-  <p>A concise description of your post.</p>
-  <input type="text" placeholder="The dopest post ever!"></input>
+                <h3 style={{ marginTop: '1cm' }}>Short Description</h3>
+                <p>A concise description of your post.</p>
+                <input type="text" placeholder="The dopest post ever!"></input>
 
-  <h3 style={{marginTop: '1cm'}}>Post Body</h3>
-  <p>The body of your post.</p>
-  <input type="text" placeholder="The dopest post ever!"></input>
+                <h3 style={{ marginTop: '1cm' }}>Post Body</h3>
+                <p>The body of your post.</p>
+                <input type="text" placeholder="The dopest post ever!"></input>
               </div>
-              </div>
+            </div>
           </main>
         </div>
       </>
