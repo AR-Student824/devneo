@@ -124,7 +124,7 @@ export default function Home() {
                 <input type="text" placeholder="The dopest post ever!"></input>
 
                 <h3 style={{ marginTop: '1cm' }}>Post Body</h3>
-                <p>The body of your post.</p>
+                <p>The body of your post. (for example, the code of a snippet or the details of a job.)</p>
                 <textarea placeholder="*:focus {outline: none;}"></textarea>
               </div>
             </div>
