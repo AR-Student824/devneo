@@ -135,7 +135,7 @@ export default function Home() {
               </h1>
 
               <p>Welcome back to Devneo, {session.user.name}.</p>
-              <h3>Top Posts (All time)</h3>
+              <h3 style={{marginTop: '1cm'}}>Top Posts (All time)</h3>
               <div className="cardGrid">
                 <div className="card dashCard">
                   <h3>Nice Balls</h3>
