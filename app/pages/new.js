@@ -90,7 +90,7 @@ export default function Home() {
               <div style={{ marginTop: '1cm' }}>
                 <h3>Post Title</h3>
                 <p>A clear and to-the-point title. </p>
-                <input type="text" name="title" placeholder="My Cool Post!" width="40px;" id="title" onInput={() => {
+                <input type="text" name="title" placeholder="My Cool Post!" width="40px;" id="title" maxLength="28" onInput={() => {
                   document.getElementById('previewCardTitle').innerText = document.getElementById('title').value
                 }}></input>
 
