@@ -135,7 +135,7 @@ export default function Home() {
               </h1>
 
               <p>Welcome back to Devneo, {session.user.name}.</p>
-
+              <h3>Top Posts (All time)</h3>
               <div className="cardGrid">
                 <div className="card dashCard">
                   <h3>Nice Balls</h3>
@@ -152,6 +152,39 @@ export default function Home() {
                 </div>
               </div>
 
+              <h3 style={{marginTop: '1cm'}}>Newest on Devneo</h3>
+              <div className="cardGrid">
+                <div className="card dashCard">
+                  <h3>Nice Balls</h3>
+                  <p><b><span className="w3-tag">💻 CSS SNIPPET</span></b>{" "}<b><span className="w3-tag">👤 TIT</span></b>
+                  </p>
+                  <p>Shows you how to get nice balls</p>
+                </div>
+
+                <div className="card dashCard">
+                  <h3>FormRocket</h3>
+                  <p> <b><span className="w3-tag">💻 WEBSITE</span></b>{" "}<b><span className="w3-tag">👤 AR</span></b>
+                  </p>
+                  <p>Create forms with ease</p>
+                </div>
+              </div>
+
+              <h3 style={{marginTop: '1cm'}}>Best Of This Week</h3>
+              <div className="cardGrid">
+                <div className="card dashCard">
+                  <h3>Nice Balls</h3>
+                  <p><b><span className="w3-tag">💻 CSS SNIPPET</span></b>{" "}<b><span className="w3-tag">👤 TIT</span></b>
+                  </p>
+                  <p>Shows you how to get nice balls</p>
+                </div>
+
+                <div className="card dashCard">
+                  <h3>FormRocket</h3>
+                  <p> <b><span className="w3-tag">💻 WEBSITE</span></b>{" "}<b><span className="w3-tag">👤 AR</span></b>
+                  </p>
+                  <p>Create forms with ease</p>
+                </div>
+              </div>
             </div>
           </main>
         </div>
