@@ -97,7 +97,7 @@ export default function Home() {
 
                 <div className="card dashCard">
                   <h3>FormRocket</h3>
-                  <p> <b><span className="w3-tag">💻 PROJECT</span></b>{" "}<b><span className="w3-tag">👤 AR</span></b>
+                  <p> <b><span className="w3-tag">💻 WEBSITE</span></b>{" "}<b><span className="w3-tag">👤 AR</span></b>
                   </p>
                   <p>Create forms with ease</p>
                 </div>

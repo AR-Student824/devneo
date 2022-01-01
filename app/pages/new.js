@@ -126,6 +126,14 @@ export default function Home() {
                 <h3 style={{ marginTop: '1cm' }}>Post Body</h3>
                 <p>The body of your post. (for example, the code of a snippet or the details of a job.)</p>
                 <textarea placeholder="*:focus {outline: none;}"></textarea>
+
+                <h3 style={{ marginTop: '1cm' }}>Preview Your Post</h3>
+                <p><b>Card</b></p>
+                <div className="card">
+                  <h3 id="previewCardTitle">N/A</h3>
+                  <p><b><span className="w3-tag" id="previewCardType">💻 N/A</span></b>{" "}<b><span className="w3-tag">👤 {session.user.name}</span></b></p>
+                  <p id="previewCardShortDescription">N/A</p>
+                </div>
               </div>
             </div>
           </main>
