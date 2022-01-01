@@ -91,7 +91,7 @@ export default function Home() {
                 <h3>Post Title</h3>
                 <p>A clear and to-the-point title. </p>
                 <input type="text" name="title" placeholder="My Cool Post!" width="40px;" id="title" onInput={() => {
-                  document.getElementById('previewCardTitle').innerText = document.getElementById('title').innerHTML
+                  document.getElementById('previewCardTitle').innerText = document.getElementById('title').value
                 }}></input>
 
                 <h3 style={{ marginTop: '1cm' }}>Post Type</h3>
