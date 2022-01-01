@@ -137,6 +137,7 @@ export default function Home() {
                   <h3 id="previewCardTitle">N/A</h3>
                   <p><b><span className="w3-tag" id="previewCardType">💻 N/A</span></b>{" "}<b><span className="w3-tag">👤 {session.user.name}</span></b></p>
                   <p id="previewCardShortDescription">N/A</p>
+                  <Button>Like</Button>
                 </div>
               </div>
             </div>

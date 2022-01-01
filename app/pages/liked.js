@@ -82,10 +82,10 @@ export default function Home() {
               <Image src="/postcard.png" alt="devneo icon" className="logo" width="150" height="150" />
 
               <h1 className={styles.title}>
-                 <span className="pink">Saved</span> Posts
+                 <span className="pink">Liked</span> Posts
               </h1>
 
-              <p>{session.user.name}&apos;s saved posts.</p>
+              <p>{session.user.name}&apos;s liked posts.</p>
 
               <div className="cardGrid">
                 <div className="card dashCard">
