@@ -123,13 +123,13 @@ export default function Home() {
 
                 <h3 style={{ marginTop: '1cm' }}>Short Description</h3>
                 <p>A concise description of your post.</p>
-                <input type="text" placeholder="The dopest post ever!"></input>
+                <input type="text" id="description" onInput={() => {
+                  document.getElementById('previewCardShortDescription').innerText = document.getElementById('description').value
+                }} placeholder="The dopest post ever!"></input>
 
                 <h3 style={{ marginTop: '1cm' }}>Post Body</h3>
                 <p>The body of your post. (for example, the code of a snippet or the details of a job.)</p>
-                <textarea placeholder="*:focus {outline: none;}" id="description" onInput={() => {
-                  document.getElementById('previewCardShortDescription').innerText = document.getElementById('description').value
-                }}></textarea>
+                <textarea placeholder="*:focus {outline: none;}"></textarea>
 
                 <h3 style={{ marginTop: '1cm' }}>Preview Your Post</h3>
                 <p><b>Card</b></p>
