@@ -37,6 +37,7 @@ text-decoration: none;
 background-color: #3e3647;
 border-radius: 10px;
 transition: background-color 0.40s ease;
+overflow: clip;
 }
 
 .card:hover,
