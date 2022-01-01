@@ -122,6 +122,10 @@ export default function Home() {
   <h3 style={{marginTop: '1cm'}}>Short Description</h3>
   <p>A concise description of your post.</p>
   <input type="text" placeholder="The dopest post ever!"></input>
+
+  <h3 style={{marginTop: '1cm'}}>Post Body</h3>
+  <p>The body of your post.</p>
+  <input type="text" placeholder="The dopest post ever!"></input>
               </div>
               </div>
           </main>
