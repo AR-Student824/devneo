@@ -1,0 +1,9 @@
+{
+    "name": "Devneo",
+    "short_name": "Devneo",
+    "theme_color": "#eb64b9",
+    "background_color": "#27212e",
+    "display": "standalone",
+    "scope": "https://www.devneo.wtf/",
+    "start_url": "https://www.devneo.wtf"
+  }
