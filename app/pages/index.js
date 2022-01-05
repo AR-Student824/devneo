@@ -70,31 +70,9 @@ export default function Home() {
           <div className="lg:mr-12">
             <div className="flex flex-row items-center">
               <h2 className="text-4xl md:text-5xl xl:text-6xl font-extrabold text-white my-5 lg:my-10 leading-tight">
-                The zero configuration build tool for
+                The zero configuration build tool for {' '}
                 <ul id="languageMarquee" className="inline-block align-top relative z-0 whitespace-nowrap">
-                  <li><span className="text-green-400">the web</span>.</li>
-                  <li><span className="text-cyan-400">JavaScript</span>.</li>
-                  <li><span className="text-rose-400 dark:text-rose-500">CSS</span>.</li>
-                  <li><span className="text-yellow-400">HTML</span>.</li>
-                  <li><span className="text-emerald-400">TypeScript</span>.</li>
-                  <li><span className="text-fuchsia-400 dark:text-fuchsia-500">React</span>.</li>
-                  <li><span className="text-cyan-400">images</span>.</li>
-                  <li><span className="text-orange-400 dark:text-orange-500">SASS</span>.</li>
-                  <li><span className="text-sky-400">SVG</span>.</li>
-                  <li><span className="text-green-400">Vue</span>.</li>
-                  <li><span className="text-fuchsia-400 dark:text-fuchsia-500">libraries</span>.</li>
-                  <li><span className="text-pink-400 dark:text-pink-500">Less</span>.</li>
-                  <li><span className="text-yellow-400">CoffeeScript</span>.</li>
-                  <li><span className="text-emerald-400">Node</span>.</li>
-                  <li><span className="text-red-400 dark:text-red-500">Stylus</span>.</li>
-                  <li><span className="text-lime-400">Pug</span>.</li>
-                  <li><span className="text-sky-400">Electron</span>.</li>
-                  <li><span className="text-red-400 dark:text-red-500">Elm</span>.</li>
-                  <li><span className="text-yellow-400">WebGL</span>.</li>
-                  <li><span className="text-fuchsia-400 dark:text-fuchsia-500">extensions</span>.</li>
-                  <li><span className="text-lime-400">GraphQL</span>.</li>
-                  <li><span className="text-cyan-400">MDX</span>.</li>
-                  <li><span className="text-rose-400 dark:text-rose-500">XML</span>.</li>
+                  <li><span className="text-pink-400">developers</span>.</li>
                 </ul>
               </h2>
             </div>
