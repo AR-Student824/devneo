@@ -64,7 +64,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row px-safe">
           <div className="lg:mr-12">
             <div className="flex flex-row items-center">
-            <Image src="/devneo.png" alt="devneo icon" className="logo" width="150" height="150" />
+            <Image src="/devneo.png" alt="devneo icon" className="logo" width="150" height="150"  />
               <h2 className="text-4xl md:text-5xl xl:text-6xl font-extrabold text-white my-5 lg:my-10 leading-tight">
                 The friendly space for {' '}
                 <ul id="languageMarquee" className="inline-block align-top relative z-0 whitespace-nowrap">

@@ -92,7 +92,7 @@ h3 {
 }
 
 .logo {
-  margin-bottom: 2cm;
+  margin-bottom: 2cm !important;
 }
 
 input, select, textarea {
