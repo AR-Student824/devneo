@@ -6,7 +6,7 @@
 
 body {
   background-color:#27212e;
-  font-family: Inter, sans-serif;
+  font-family: Inter, sans-serif !important;
   color: whitesmoke;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 60px !important;
 }
 
 p {
