@@ -72,7 +72,9 @@ export default function Home() {
                 </ul>
               </h2>
             </div>
-            <p className="text-indigo-100 dark:text-purple-200 text-xl lg:text-2xl mb-8 lg:mb-16">Parcel combines a great out-of-the-box development experience with a scalable architecture that can take your project from just getting started to massive production application.</p>
+            <p className="text-indigo-100 dark:text-purple-200 text-xl lg:text-2xl mb-8 lg:mb-16">
+              A new way for developers to share everything from code snippets to projects, and even job listings.
+            </p>
           </div>
           <div className="hidden lg:block bg-gray-100 dark:bg-gray-900 h-80 w-1/3 flex-shrink-0 rounded-md p-4 border-gray-200 dark:border-gray-800 border-solid border shadow-xl overflow-hidden">
             <div className="flex flex-row mb-4">
