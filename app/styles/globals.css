@@ -6,7 +6,7 @@
 
 body {
   background-color:#27212e;
-  font-family: Inter, sans-serif !important;
+  font-family: Inter, !important;
   color: whitesmoke;
 }
 
@@ -73,7 +73,7 @@ h3 {
 }
 
 * {
-  font-family: "Inter", sans-serif !important;
+  font-family: "Inter", !important;
 }
 
 .placeBottom {
@@ -107,7 +107,7 @@ input, select, textarea {
   padding: 10px;
   outline: none;
   color: whitesmoke !important;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
 }
 
 textarea {
