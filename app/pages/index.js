@@ -58,7 +58,6 @@ export default function Home() {
         <main className={styles.main + " landingContent"}>
           
   <div className="overflow-x-hidden" style={{backgroundColor: "#27212e"}}>
-  <Image src="/devneo.png" alt="devneo icon" className="logo" width="150" height="150"  />
     <header aria-labelledby="parcel" className="pt-20 md:pt-16 pb-8 md:pb-16 relative">
       <div className="absolute top-0 left-0 bg-gradient-to-tr from-blue-600 via-indigo-600 to-pink-500 dark:from-blue-700 dark:via-purple-800 dark:to-pink-800 transform -skew-y-6 -translate-y-28" style={{zIndex: "-1", width: "100%", height: "120%"}} role="presentation"></div>
       <div className="max-w-screen-xl mx-auto px-6 md:px-8 box-border">
