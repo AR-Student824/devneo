@@ -51,11 +51,67 @@ export default function Home() {
   }
 
   if (!loading && !session) {
-    return (
+    return (  
       <div className={styles.container}>
 
 
         <main className={styles.main + " landingContent"}>
+          
+  <div className="bg-white dark:bg-gray-800 overflow-x-hidden">
+    <header aria-labelledby="parcel" className="pt-20 md:pt-16 pb-8 md:pb-16 relative">
+      <div className="absolute top-0 left-0 bg-gradient-to-tr from-blue-600 via-indigo-600 to-pink-500 dark:from-blue-700 dark:via-purple-800 dark:to-pink-800 transform -skew-y-6 -translate-y-28" style="z-index: -1; width: 100%; height: 120%;" role="presentation"></div>
+      <div className="max-w-screen-xl mx-auto px-6 md:px-8 box-border">
+        <div className="flex flex-row items-center px-safe">
+          <h1 id="parcel" className="text-red-400 h-10 lg:h-16">
+            <span className="sr-only">Parcel</span>
+          </h1>
+        </div>
+        <div className="flex flex-col lg:flex-row px-safe">
+          <div className="lg:mr-12">
+            <div className="flex flex-row items-center">
+              <h2 className="text-4xl md:text-5xl xl:text-6xl font-extrabold text-white my-5 lg:my-10 leading-tight">
+                The zero configuration build tool for
+                <ul id="languageMarquee" className="inline-block align-top relative z-0 whitespace-nowrap">
+                  <li><span className="text-green-400">the web</span>.</li>
+                  <li><span className="text-cyan-400">JavaScript</span>.</li>
+                  <li><span className="text-rose-400 dark:text-rose-500">CSS</span>.</li>
+                  <li><span className="text-yellow-400">HTML</span>.</li>
+                  <li><span className="text-emerald-400">TypeScript</span>.</li>
+                  <li><span className="text-fuchsia-400 dark:text-fuchsia-500">React</span>.</li>
+                  <li><span className="text-cyan-400">images</span>.</li>
+                  <li><span className="text-orange-400 dark:text-orange-500">SASS</span>.</li>
+                  <li><span className="text-sky-400">SVG</span>.</li>
+                  <li><span className="text-green-400">Vue</span>.</li>
+                  <li><span className="text-fuchsia-400 dark:text-fuchsia-500">libraries</span>.</li>
+                  <li><span className="text-pink-400 dark:text-pink-500">Less</span>.</li>
+                  <li><span className="text-yellow-400">CoffeeScript</span>.</li>
+                  <li><span className="text-emerald-400">Node</span>.</li>
+                  <li><span className="text-red-400 dark:text-red-500">Stylus</span>.</li>
+                  <li><span className="text-lime-400">Pug</span>.</li>
+                  <li><span className="text-sky-400">Electron</span>.</li>
+                  <li><span className="text-red-400 dark:text-red-500">Elm</span>.</li>
+                  <li><span className="text-yellow-400">WebGL</span>.</li>
+                  <li><span className="text-fuchsia-400 dark:text-fuchsia-500">extensions</span>.</li>
+                  <li><span className="text-lime-400">GraphQL</span>.</li>
+                  <li><span className="text-cyan-400">MDX</span>.</li>
+                  <li><span className="text-rose-400 dark:text-rose-500">XML</span>.</li>
+                </ul>
+              </h2>
+            </div>
+            <p className="text-indigo-100 dark:text-purple-200 text-xl lg:text-2xl mb-8 lg:mb-16">Parcel combines a great out-of-the-box development experience with a scalable architecture that can take your project from just getting started to massive production application.</p>
+          </div>
+          <div className="hidden lg:block bg-gray-100 dark:bg-gray-900 h-80 w-1/3 flex-shrink-0 rounded-md p-4 border-gray-200 dark:border-gray-800 border-solid border shadow-xl overflow-hidden">
+            <div className="flex flex-row mb-4">
+              <div className="bg-red-500 rounded-full w-3 h-3 mr-2"></div>
+              <div className="bg-yellow-500 rounded-full w-3 h-3 mr-2"></div>
+              <div className="bg-green-500 rounded-full w-3 h-3"></div>
+            </div>
+          <pre className="text-xs p-0 bg-transparent text-black dark:text-gray-200 font-semibold"><code prism-ignore><span className="font-normal" id="heroPrompt">$ </span><span className="w-2 h-3 align-middle inline-block bg-gray-500" style="margin-top: -2px" id="heroCursor"></span>
+</code></pre>
+        
+
+      </div>
+{/*
           <center>
           <Image src="/api-programming.png" width="540" height="327" alt="art"  />
             <h1 className={styles.title}>
@@ -104,7 +160,11 @@ export default function Home() {
 
 
             </div>
-          </center>
+</center>*/}
+</div>
+</div>
+</header>
+</div>
         </main>
       </div>
     )
