@@ -70,9 +70,9 @@ export default function Home() {
           <div className="lg:mr-12">
             <div className="flex flex-row items-center">
               <h2 className="text-4xl md:text-5xl xl:text-6xl font-extrabold text-white my-5 lg:my-10 leading-tight">
-                The zero configuration build tool for {' '}
+                The friendly space for {' '}
                 <ul id="languageMarquee" className="inline-block align-top relative z-0 whitespace-nowrap">
-                  <li><span className="text-pink-400">developers</span>.</li>
+                  <li><span className="text-pink-400">developers</span></li>
                 </ul>
               </h2>
             </div>
