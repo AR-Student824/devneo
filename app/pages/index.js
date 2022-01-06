@@ -57,9 +57,9 @@ export default function Home() {
 
         <main className={styles.main + " landingContent"}>
           
-  <div className="overflow-x-hidden" style={{backgroundColor: "#27212e"}}>
+  <div>
     <header aria-labelledby="parcel" className="pt-20 md:pt-16 pb-8 md:pb-16 relative">
-      <div className="absolute top-0 left-0 bg-gradient-to-tr from-blue-600 via-indigo-600 to-pink-500 dark:from-blue-700 dark:via-purple-800 dark:to-pink-800 transform -skew-y-6 -translate-y-28" style={{zIndex: "-1", width: "100%", height: "120%"}} role="presentation"></div>
+      <div className="absolute top-0 left-0 bg-gradient-to-tr from-blue-600 via-indigo-600 to-red-500 dark:from-blue-700 dark:via-purple-800 dark:to-red-800 transform -skew-y-6 -translate-y-28" style={{zIndex: "-1", width: "100%", height: "120%"}} role="presentation"></div>
       <div className="max-w-screen-xl mx-auto px-6 md:px-8 box-border">
         <div className="flex flex-col lg:flex-row px-safe">
           <div className="lg:mr-12">
@@ -84,65 +84,48 @@ export default function Home() {
             </div>
           <pre className="text-xs p-0 bg-transparent text-black dark:text-gray-200 font-semibold"><code prism-ignore><span className="font-normal" id="heroPrompt">$ </span><span className="w-2 h-3 align-middle inline-block bg-gray-500" style={{marginTop: "-2px"}} id="heroCursor"></span>
 </code></pre>
+
+
         
 
       </div>
-{/*
-          <center>
-          <Image src="/api-programming.png" width="540" height="327" alt="art"  />
-            <h1 className={styles.title}>
-              A place for <span className="pink" id="typed">developers</span>.
-            </h1>
-
-            <div id="typed-strings" style={{ display: "none" }}>
-              <h1>developers</h1>
-              <h1>code snippets</h1>
-              <h1>projects</h1>
-              <h1>ideas</h1>
-              <h1>jobs</h1>
-              <h1>APIs</h1>
-              <h1>developers</h1>
-
-            </div>
-
-            <p className={styles.description}>
-              Share and find code snippets, projects and ideas, all in one place.
-            </p>
-
-            <Button variant="contained" onClick={() => window.location.href = './login'} className={s.disabledButton}>Get Started</Button>
-
-            <div className="cardGrid">
-              <div className="card">
-                <h3>Projects</h3>
-                <p>Share and discover projects effectively.</p>
-              </div>
-
-              <div className="card">
-                <h3>Code Snippets</h3>
-                <p>Share and find useful code snippets.</p>
-              </div>
-
-              <div className="card">
-                <h3>Jobs</h3>
-                <p>Hire developers and discover jobs for you.</p>
-              </div>
-
-              <div className="card">
-                <h3>Ideas</h3>
-                <p>Share ideas and build on ideas, all in one place.</p>
-              </div>
-
-
-
-
-            </div>
-</center>*/}
 </div>
+
+      
+
 </div>
+
 </header>
 </div>
-        </main>
+
+<div style={{margin: "4%", marginRight: "7%", marginLeft: "7%"}} className="pt-20 md:pt-16 pb-8 md:pb-16 relative">
+  <div style={{float: "right"}}>
+      <h3 className="text-2xl md:text-4xl xl:text-5xl font-extrabold text-white my-5 lg:my-10 leading-tight">
+        Find code snippets with <span className="pink">ease</span>.
+      </h3>
+      <p>Share and find code snippets with ease, all in one place.</p>
+
       </div>
+      <div style={{float: "left"}}>
+        <Image src="/api-programming.png" width="500" height="300" />
+      </div>
+</div>
+
+
+<div style={{margin: "4%", marginRight: "7%", marginLeft: "7%", clear:"both"}} className="pt-20 md:pt-16 pb-8 md:pb-16 relative">
+  <div style={{float: "left"}}>
+      <h3 className="text-2xl md:text-4xl xl:text-5xl font-extrabold text-white my-5 lg:my-10 leading-tight">
+        <span className="pink">Share</span> projects effortlessly.
+      </h3>
+      <p>With Devneo, it&apos;s easy to share what you&apos;ve been working on, and growing your audience.</p>
+
+      </div>
+      <div style={{float: "right"}}>
+        <Image src="/pencil-case.png" width="300" height="300" />
+      </div>
+</div>
+</main>
+</div>
     )
   }
 
