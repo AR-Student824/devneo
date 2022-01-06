@@ -75,6 +75,7 @@ export default function Home() {
             <p className="text-indigo-100 dark:text-purple-200 text-xl lg:text-2xl mb-8 lg:mb-16">
               A new way for developers to share and find everything from code snippets to projects, and even job listings.
             </p>
+            <button className="bg-green-600 p-3 rounded-lg hover:bg-green-800" onClick={()=>{window.location.href = '/login'}}>Get Started</button>
           </div>
           <div className="hidden lg:block bg-gray-100 dark:bg-gray-900 h-80 w-1/3 flex-shrink-0 rounded-md p-4 border-gray-200 dark:border-gray-800 border-solid border shadow-xl overflow-hidden">
             <div className="flex flex-row mb-4">
